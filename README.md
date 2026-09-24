@@ -10,13 +10,17 @@ Personal site built with [Astro](https://astro.build), with content edited throu
 - `src/pages/about.md` — about page, editable in Pages CMS
 - `public/` — static files and uploaded media
 
+## Development
+
+Open the repository in a dev container (VS Code Dev Containers or GitHub Codespaces) to get Node.js and the pinned pnpm version with dependencies installed. Run `pnpm dev` and the forwarded port 4321 opens a preview.
+
 ## Commands
 
-| Command           | Action                                      |
-| :---------------- | :------------------------------------------ |
-| `npm install`     | Install dependencies                        |
-| `npm run dev`     | Start the dev server at `localhost:4321`    |
-| `npm run build`   | Build the production site to `./dist/`      |
-| `npm run preview` | Preview the build locally                   |
+| Command        | Action                                   |
+| :------------- | :--------------------------------------- |
+| `pnpm install` | Install dependencies                     |
+| `pnpm dev`     | Start the dev server at `localhost:4321` |
+| `pnpm build`   | Build the production site to `./dist/`   |
+| `pnpm preview` | Preview the build locally                |
 
-Draft posts (`draft: true`) are shown in `npm run dev` and left out of production builds.
+Draft posts (`draft: true`) are shown in `pnpm dev` and left out of production builds.

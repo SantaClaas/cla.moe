@@ -1,0 +1,19 @@
+{
+  "name": "cla.moe",
+  // 5.2.1-24-trixie (Node.js 24 LTS on Debian 13)
+  "image": "mcr.microsoft.com/devcontainers/javascript-node@sha256:7a81958053c4e3b5b20fa122f7a422d32dd0eebe87a6726f7b14483585ea60fd",
+  // Installs the pnpm version from the `packageManager` field in package.json
+  "postCreateCommand": "npm install --global --ignore-scripts \"$(node -p \"require('./package.json').packageManager\")\" && pnpm install --frozen-lockfile",
+  "forwardPorts": [4321],
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro dev server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["astro-build.astro-vscode"]
+    }
+  }
+}
