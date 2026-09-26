@@ -11,3 +11,7 @@ description: The ideal app architecture. A living document about service
 On the high level there are no clients and servers. There are only systems (computers) connected in a distributed system.
 
 Systems are organized in a round table tree hierarchy. Note 
+
+![Holy Grail tapestry "The Arming and Departure of the Knights": ladies hand helmets, swords and shields to mounted knights as they ride out on the quest](../../assets/blog/holy-grail-tapestry-arming-and-departure.jpg)
+
+*The Arming and Departure of the Knights* from the Holy Grail tapestries, designed by Edward Burne-Jones, William Morris and John Henry Dearle, woven by Morris & Co. (1891–94). Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Holy_Grail_Tapestry_-The_Arming_and_Departure_of_the_Kniights.jpg).
