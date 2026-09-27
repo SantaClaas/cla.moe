@@ -12,6 +12,10 @@ This is an ideal architecture not a real architecture with tradeoffs. This might
 
 On the high level there are no clients and servers. There are only systems (computers) connected in a distributed system.
 
+If possible the architecture does not have servers and does not have databases. All compute runs on the clients. All data is stored on clients.
+
+Ideally clients on user devices should connect to each other directly if they need to exchange data. A user can have multiple clients that each synchronize data between each other to 
+
 # Topology
 
 Systems are organized in a round table tree hierarchy. I called this ring tree hierarchy before but I want to emphasize that nodes can talk between each other "across the table".  Each system is a node.
@@ -19,3 +23,4 @@ Systems are organized in a round table tree hierarchy. I called this ring tree h
 ![Holy Grail tapestry "The Arming and Departure of the Knights": ladies hand helmets, swords and shields to mounted knights as they ride out on the quest](../../assets/blog/holy-grail-tapestry-arming-and-departure.jpg)
 
 *The Arming and Departure of the Knights* from the Holy Grail tapestries, designed by Edward Burne-Jones, William Morris and John Henry Dearle, woven by Morris & Co. (1891–94). Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Holy_Grail_Tapestry_-The_Arming_and_Departure_of_the_Kniights.jpg).
+
