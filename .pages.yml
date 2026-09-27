@@ -1,6 +1,8 @@
 media:
-  # The first entry is the default for fields that don't name one.
-  - name: public
+  # The first entry is the default for fields that don't name one. Keep it named
+  # "default": that is the name Pages CMS gave the old single media config, and
+  # existing media URLs (/media/default) crash if it disappears.
+  - name: default
     label: Public
     input: public
     output: /
