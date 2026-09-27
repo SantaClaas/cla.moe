@@ -10,7 +10,7 @@ description: The ideal app architecture. A living document about service
 ---
 On the high level there are no clients and servers. There are only systems (computers) connected in a distributed system.
 
-Systems are organized in a round table tree hierarchy. Note 
+Systems are organized in a round table tree hierarchy. I called this ring table tree hierarchy before but I want to emphasize that nodes can talk between each other "across the table".
 
 ![Holy Grail tapestry "The Arming and Departure of the Knights": ladies hand helmets, swords and shields to mounted knights as they ride out on the quest](../../assets/blog/holy-grail-tapestry-arming-and-departure.jpg)
 
