@@ -8,7 +8,7 @@ draft: true
 description: The ideal app architecture. A living document about service
   architecture powering my apps.
 ---
-On the high level there are no clients and servers. There are only systems (computers) connected in a distributed system.
+On the high level there are no clients and servers. There are only systems (computers) connected in a distributed system. Each system is a node.
 
 Systems are organized in a round table tree hierarchy. I called this ring table tree hierarchy before but I want to emphasize that nodes can talk between each other "across the table".
 
