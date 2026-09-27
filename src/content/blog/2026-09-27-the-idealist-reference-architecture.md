@@ -14,7 +14,7 @@ On the high level there are no clients and servers. There are only systems (comp
 
 If possible the architecture does not have servers and does not have databases. 
 
-All compute runs on the clients. All data is stored on clients.
+All compute runs on the clients. All data is stored on clients. The system is local first but not local only.
 
 Ideally clients on user devices should connect to each other directly if they need to exchange data. A user can have multiple clients that each synchronize data between each other to 
 
