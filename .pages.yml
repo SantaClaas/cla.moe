@@ -1,6 +1,19 @@
 media:
-  input: public
-  output: /
+  # The first entry is the default for fields that don't name one.
+  - name: public
+    label: Public
+    input: public
+    output: /
+  # Post images live in src/assets so Astro optimizes them. Posts are in
+  # src/content/blog, so they link to these images as ../../assets/blog/<file>.
+  - name: blog
+    label: Blog images
+    input: src/assets/blog
+    output: ../../assets/blog
+  - name: assets
+    label: Site assets
+    input: public/assets
+    output: /assets
 content:
   - name: posts
     label: Posts
@@ -19,7 +32,7 @@ content:
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
-      - { name: body, label: Body, type: rich-text, options: { input: src/assets/blog, output: ../../assets/blog } }
+      - { name: body, label: Body, type: rich-text, options: { media: blog } }
   - name: about
     label: About page
     type: file
@@ -27,4 +40,4 @@ content:
     fields:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: title, label: Title, type: string }
-      - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
+      - { name: body, label: Body, type: rich-text, options: { media: assets } }
