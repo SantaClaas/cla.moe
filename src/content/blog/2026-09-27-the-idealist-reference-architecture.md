@@ -18,7 +18,7 @@ All compute runs on the clients. All data is stored on clients. The system is lo
 
 If compute can not run on the clients due to proprietary software, efficiency or other reasons, then at least data should be stored on users clients. 
 
-If clients can not be trusted with data storage or we need to have more control over data, then we use cryptography to ensure confidentiality, integrity and authenticity.
+If clients can not be trusted with data storage or we need to have more control over data, then we use cryptography to ensure confidentiality, integrity and authenticity. The client has to be seen as 
 
 By storing and running compute on clients, users have full ownership of their data following in good faith the ideas of European data protection laws. We should also try to go beyond those laws in the interest of personal freedom and the protection of our democratic values. Pushing as much of the compute and data storage onto the client reduces the moral and legal burden but also reduces server costs and all the headaches associated with data storage. I really dislike data storage due to its inflexibility. It is one of the least malleable things once deployed and it is hard to fix mistakes and I make a lot of mistakes.
 
