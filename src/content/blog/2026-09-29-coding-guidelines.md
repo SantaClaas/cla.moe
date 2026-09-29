@@ -16,7 +16,23 @@ Abbreviations require a translation step when not used to them and this translat
 
 If abbreviations come from external APIs or are required for external APIs then they should only exist at the boundaries of our applications where we need to interact with external systems. Internally we use the non-abbreviated names. The wire format should not leak into application internals.
 
-This rule can be broken when an optimization needs to be done for example for a wire protocol. But those optimizations need to be justifiable and sensible. For example using an abbreviation in a json payload for a simple response is hard to justify as json itself is not a very space efficient format in itself. But it exists as a plaintext format and is likely so popular because it is still human-readable. Using abbreviations in json would defeat the point of using json in the first place as they make it less human-readable. However there are exceptions when they can be justified. JWTs use abbreviations 
+This rule can be broken when an optimization needs to be done for example for a wire protocol. But those optimizations need to be justifiable and sensible. For example using an abbreviation in a json payload for a simple response is hard to justify as json itself is not a very space efficient format in itself. But it exists as a plaintext format and is likely so popular because it is still human-readable. Using abbreviations in json would defeat the point of using json in the first place as they make it less human-readable. However there are exceptions when they can be justified.
+
+### Examples
+
+These examples illustrate some of the principles mentioned above.
+
+#### JSON Web Tokens (JWT)
+
+Todo
+
+#### Home Assistant discovery payload
+
+Todo
+
+### Naming within context
+
+Avoid stutter, pleonasms and tautologies.
 
 When writing out commands to text files, use the long form when available.
 
