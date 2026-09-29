@@ -10,7 +10,7 @@ draft: false
 
 ## Optimize for reading not typing
 
-Avoid lazy ambiguous abbreviations. Most abbreviations are ambiguous. Same as hashing reduces the set of variations so do abbreviations. Only very common/established/well-known abbreviations are permitted such as “id” and “uuid”.
+Avoid lazy ambiguous abbreviations. Most abbreviations are ambiguous. Only very common/established/well-known abbreviations are permitted such as “id” and “uuid”.
 
 Abbreviations require a translation step when not used to them and this translation step is especially jarring when there is a collision due to an abbreviation used for something else in another context the reader is familiar with. They also don’t save on writing that much as most code editors have autocomplete. Additionally our brains are amazing at recognizing patterns allowing us to read words just by recognizing a pattern of letters without reading every letter like a school kid. Same pattern recognition can be claimed for abbreviations but the chance of a collision and readjustment is higher for fewer letters than more.
 
