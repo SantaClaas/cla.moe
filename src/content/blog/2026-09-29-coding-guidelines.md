@@ -34,7 +34,9 @@ Todo
 
 Avoid stutter, pleonasms and tautologies.
 
-When writing out commands to text files, use the long form when available.
+## Commands
+
+When writing out commands to text files, use the long form for options when available. When writing commands in the terminal only for you to read do whatever you want of course.
 
 ## Booleans
 
