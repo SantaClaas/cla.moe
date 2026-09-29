@@ -44,5 +44,9 @@ Booleans should always be prefixed with “is” or when not possible otherwise 
 
 This avoids having booleans in different tenses(?). For example “created” is ambiguous and could mean a created date or whether something was created or is created.
 
-As seen in the example it often times makes sense to use a date or different value instead of a Boolean as that contains more information that can come in handy later. But be careful as this can lead to too early optimizations and conflicts with the data minimization principle of the General Data protection regulation (GDPR).
+As seen in the example it often times makes sense to use a date or different value instead of a Boolean as that contains more information that can come in handy later. 
+
+A great post on this is [That boolean should probably be something else](https://ntietz.com/blog/that-boolean-should-probably-be-something-else/) by Nicole Tietz-Sokolskaya
+
+But be careful as this can lead to too early optimizations and conflicts with the data minimization principle of the General Data protection regulation (GDPR).
 
